@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background:linear-gradient(pink,aqua);
+    color: white;
+}
+#div_1 {
+    background-color: #ffffff;
+    width: 100%;
+    color: black;
+}
+#st1,#st2,#st3,#st4,#st5,#span_1,#span_2 {
+    color: yellow;
+}
+#cam,#a {
+    width: 400px;
+    height: 350px;
+    border: 2px black ridge;
+}

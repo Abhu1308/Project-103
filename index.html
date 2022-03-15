@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>image recognizer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="div_1">
+        <h1>Image Recognizer</h1>
+    </div>
+    <h3>Model is trained to identify the following people:</h3>
+    <h4 id="st1">Abhu</h4>
+    <hr>
+    <h4 id="st2">Aadi</h4>
+    <hr>
+    <h4 id="st3">Anurag</h4>
+    <hr>
+    <h4 id="st4">Romsha</h4>
+    <hr>
+    <h4>Webcam View -</h4>
+    <center>
+    <div id="cam"></div>
+    <br>
+    <button id="b_1" class="btn btn-info">Capture Image</button>
+    <h4>Captured image</h4>
+    <div id="a"></div>
+    <br>
+    </center>
+     <button id="b_2" class="btn btn-success">identify image</button>
+     <h3 id="i">Object:<span id="span_1"></span></h3>
+     <h3 id="j">Accuracy:<span id="span_2"></span></h3>
+</body>
+
+</html>
